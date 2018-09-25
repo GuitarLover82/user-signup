@@ -1,6 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        
-    </body>
+<head>
+    <style>
+        .error { color: red;}
+    </style>
+</head>    
+<body>
+    <form method="POST">
+        <h1>Signup</h1>
+        <div>
+        <label>User name
+            <input name="user-name" type="text" />
+            <span class="error"></span>
+        </label>
+        </div>
+        <br>
+        <div>
+        <label>Password
+            <Input name="user-password" type="password" />
+            <span class="error"></span>
+        </label>
+        </div>
+        <br>
+        <div>
+        <label>Verify Password
+            <input name="verify-password" type="password" />
+            <span class="error"></span>
+        </label>
+        </div>
+        <br>
+        <div>
+        <label>Email (optional)
+            <input name="email" type="text" />
+            <span class="error"></span>
+        </label>
+        </div>
+        <br>
+        <input type="submit" value="submit form" />
+
+    </form>
+</body>
 </html>
