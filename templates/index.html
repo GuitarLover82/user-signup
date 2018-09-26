@@ -10,33 +10,29 @@
         <h1>Signup</h1>
         <div>
         <label>User name
-            <input name="user-name" type="text" />
-            <span class="error"></span>
+            <input name="user_name" type="text" value="{{user_name}}" />
         </label>
         </div>
         <br>
         <div>
         <label>Password
-            <Input name="user-password" type="password" />
-            <span class="error"></span>
+            <Input name="user_password" type="password", value="{{user_password}}" />
         </label>
         </div>
         <br>
         <div>
         <label>Verify Password
-            <input name="verify-password" type="password" />
-            <span class="error"></span>
+            <input name="verify_password" type="password" value="{{verify_password}}" />
         </label>
         </div>
         <br>
         <div>
         <label>Email (optional)
-            <input name="email" type="text" />
-            <span class="error"></span>
+            <input name="email" type="text" value="{{email}}" />
         </label>
         </div>
         <br>
-        <input type="submit" value="submit form" />
+        <input type="submit" value="submit Form" />
 
     </form>
 </body>
