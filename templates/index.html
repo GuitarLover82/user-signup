@@ -9,27 +9,31 @@
     <form method="POST">
         <h1>Signup</h1>
         <div>
-        <label>User name
+        <label>User Name
             <input name="user_name" type="text" value="{{user_name}}" />
         </label>
+        <span class="error">{{user_name_error}}</span>
         </div>
         <br>
         <div>
         <label>Password
             <Input name="user_password" type="password", value="{{user_password}}" />
         </label>
+        <span class="error">{{user_password_error}}</span>
         </div>
         <br>
         <div>
         <label>Verify Password
             <input name="verify_password" type="password" value="{{verify_password}}" />
         </label>
+        <span class="error">{{verify_password_error}}</span>
         </div>
         <br>
         <div>
         <label>Email (optional)
             <input name="email" type="text" value="{{email}}" />
         </label>
+        <span class="error">{{email_error}}</span>
         </div>
         <br>
         <input type="submit" value="submit Form" />
